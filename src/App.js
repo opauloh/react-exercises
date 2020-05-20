@@ -6,6 +6,7 @@ function App() {
     <ul>
       <li><NavLink to="/character-limit">Character Limit</NavLink></li>
       <li><NavLink to="/wait-delay">Wait Delay</NavLink></li>
+      <li><NavLink to="/api-requests">API Requests</NavLink></li>
     </ul>
   );
 }
