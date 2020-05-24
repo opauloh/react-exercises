@@ -10,6 +10,7 @@ function App() {
       <li><NavLink to="/hooks-hover">Hooks Hover</NavLink></li>
       <li><NavLink to="/use-wait">useWait</NavLink></li>
       <li><NavLink to="/use-window-dimensions">useWindowDimensions</NavLink></li>
+      <li><NavLink to="/use-fetch">useFetch</NavLink></li>
     </ul>
   );
 }
