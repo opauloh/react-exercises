@@ -6,6 +6,7 @@ import CharacterLimit from './exercises/CharacterLimit';
 import WaitDelay from './exercises/WaitDelay';
 import ApiRequests from './exercises/ApiRequests';
 import HooksHover from './exercises/HooksHover';
+import CustomUseWait from './exercises/CustomUseWait';
 
 
 ReactDOM.render(
@@ -16,6 +17,7 @@ ReactDOM.render(
         <Route path='/wait-delay' exact={true} component={WaitDelay} />
         <Route path='/api-requests' exact={true} component={ApiRequests} />
         <Route path='/hooks-hover' exact={true} component={HooksHover} />
+        <Route path='/use-wait' exact={true} component={CustomUseWait} />
         <Route path='/' exact={true} component={App} />
       </Switch>
     </BrowserRouter>
