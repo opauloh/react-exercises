@@ -7,6 +7,7 @@ import WaitDelay from './exercises/WaitDelay';
 import ApiRequests from './exercises/ApiRequests';
 import HooksHover from './exercises/HooksHover';
 import CustomUseWait from './exercises/CustomUseWait';
+import CustomUseWindowDimensions from './exercises/CustomUseWindowDimensions';
 
 
 ReactDOM.render(
@@ -18,6 +19,7 @@ ReactDOM.render(
         <Route path='/api-requests' exact={true} component={ApiRequests} />
         <Route path='/hooks-hover' exact={true} component={HooksHover} />
         <Route path='/use-wait' exact={true} component={CustomUseWait} />
+        <Route path='/use-window-dimensions' exact={true} component={CustomUseWindowDimensions} />
         <Route path='/' exact={true} component={App} />
       </Switch>
     </BrowserRouter>

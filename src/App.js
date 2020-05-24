@@ -8,7 +8,8 @@ function App() {
       <li><NavLink to="/wait-delay">Wait Delay</NavLink></li>
       <li><NavLink to="/api-requests">API Requests</NavLink></li>
       <li><NavLink to="/hooks-hover">Hooks Hover</NavLink></li>
-      <li><NavLink to="/use-wait">Custom Use Wait</NavLink></li>
+      <li><NavLink to="/use-wait">useWait</NavLink></li>
+      <li><NavLink to="/use-window-dimensions">useWindowDimensions</NavLink></li>
     </ul>
   );
 }
