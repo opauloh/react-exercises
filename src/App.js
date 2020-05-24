@@ -11,6 +11,7 @@ function App() {
       <li><NavLink to="/use-wait">useWait</NavLink></li>
       <li><NavLink to="/use-window-dimensions">useWindowDimensions</NavLink></li>
       <li><NavLink to="/use-fetch">useFetch</NavLink></li>
+      <li><NavLink to="/refactor-use-fetch">useFetch with useReducer</NavLink></li>
     </ul>
   );
 }

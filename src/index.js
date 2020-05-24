@@ -9,6 +9,7 @@ import HooksHover from './exercises/HooksHover';
 import CustomUseWait from './exercises/CustomUseWait';
 import CustomUseWindowDimensions from './exercises/CustomUseWindowDimensions';
 import CustomUseFetch from './exercises/CustomUseFetch';
+import RefactorUseFetch from './exercises/RefactorUseFetch';
 
 
 ReactDOM.render(
@@ -22,6 +23,7 @@ ReactDOM.render(
         <Route path='/use-wait' exact={true} component={CustomUseWait} />
         <Route path='/use-window-dimensions' exact={true} component={CustomUseWindowDimensions} />
         <Route path='/use-fetch' exact={true} component={CustomUseFetch} />
+        <Route path='/refactor-use-fetch' exact={true} component={RefactorUseFetch} />
         <Route path='/' exact={true} component={App} />
       </Switch>
     </BrowserRouter>
