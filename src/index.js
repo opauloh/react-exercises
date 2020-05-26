@@ -11,6 +11,7 @@ import CustomUseWindowDimensions from './exercises/CustomUseWindowDimensions';
 import CustomUseFetch from './exercises/CustomUseFetch';
 import RefactorUseFetch from './exercises/RefactorUseFetch';
 import ComplexForm from './exercises/ComplexForm';
+import ClickGame from './exercises/ClickGame';
 
 
 ReactDOM.render(
@@ -25,6 +26,8 @@ ReactDOM.render(
         <Route path='/use-window-dimensions' exact={true} component={CustomUseWindowDimensions} />
         <Route path='/use-fetch' exact={true} component={CustomUseFetch} />
         <Route path='/refactor-use-fetch' exact={true} component={RefactorUseFetch} />
+        <Route path='/complex-form' exact={true} component={ComplexForm} />
+        <Route path='/click-game' exact={true} component={ClickGame} />
         <Route path='/' exact={true} component={App} />
       </Switch>
     </BrowserRouter>

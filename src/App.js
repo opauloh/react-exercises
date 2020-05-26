@@ -13,6 +13,7 @@ function App() {
       <li><NavLink to="/use-fetch">useFetch</NavLink></li>
       <li><NavLink to="/refactor-use-fetch">useFetch with useReducer</NavLink></li>
       <li><NavLink to="/complex-form">Complex Form</NavLink></li>
+      <li><NavLink to="/click-game">Click Game</NavLink></li>
     </ul>
   );
 }
