@@ -10,6 +10,7 @@ import CustomUseWait from './exercises/CustomUseWait';
 import CustomUseWindowDimensions from './exercises/CustomUseWindowDimensions';
 import CustomUseFetch from './exercises/CustomUseFetch';
 import RefactorUseFetch from './exercises/RefactorUseFetch';
+import ComplexForm from './exercises/ComplexForm';
 
 
 ReactDOM.render(
